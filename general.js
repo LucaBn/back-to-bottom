@@ -26,7 +26,7 @@ var scroll_to_position = {
 
 // Add .back-to-top and -back-to-bottom classes to elements that need to trigger those actions
 document.addEventListener('click', function (event) {
-	if (event.target.matches('.back-to-top')) {
+	if(event.target.matches('.back-to-top')) {
         // Go to top
         scroll_to_position.back_to_top();
     }
